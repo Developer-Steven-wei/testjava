@@ -1,0 +1,560 @@
+2024-12-30 11:34:40 - Starting DemoApplication v0.0.1-SNAPSHOT using Java 17.0.13 with PID 296 (/var/www/html/steven/java/project/demo/target/demo-0.0.1-SNAPSHOT.jar started by root in /var/www/html/steven/java/project/demo)
+2024-12-30 11:34:40 - Running with Spring Boot v3.4.1, Spring v6.2.1
+2024-12-30 11:34:40 - No active profile set, falling back to 1 default profile: "default"
+2024-12-30 11:34:41 - Tomcat initialized with port 8080 (http)
+2024-12-30 11:34:41 - An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-12-30 11:34:41 - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.2].
+2024-12-30 11:34:41 - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-12-30 11:34:41 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-30 11:34:41 - Starting service [Tomcat]
+2024-12-30 11:34:41 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-30 11:34:41 - Initializing Spring embedded WebApplicationContext
+2024-12-30 11:34:41 - Root WebApplicationContext: initialization completed in 533 ms
+2024-12-30 11:34:41 - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-30 11:34:41 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-30 11:34:41 - Started DemoApplication in 1.244 seconds (process running for 1.645)
+2024-12-30 11:34:53 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-30 11:34:53 - Initializing Servlet 'dispatcherServlet'
+2024-12-30 11:34:53 - Completed initialization in 0 ms
+2024-12-30 11:34:53 - HikariPool-1 - Starting...
+2024-12-30 11:34:54 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1018762a
+2024-12-30 11:34:54 - HikariPool-1 - Start completed.
+2024-12-30 11:35:18 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "steven"]
+2024-12-30 11:37:52 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-30 11:37:52 - Graceful shutdown complete
+2024-12-30 11:37:52 - HikariPool-1 - Shutdown initiated...
+2024-12-30 11:37:52 - HikariPool-1 - Shutdown completed.
+2024-12-30 11:38:01 - Could not detect default configuration classes for test class [com.example.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-12-30 11:38:01 - Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.DemoApplicationTests
+2024-12-30 11:38:01 - Starting DemoApplicationTests using Java 17.0.13 with PID 420 (started by root in /var/www/html/steven/java/project/demo)
+2024-12-30 11:38:01 - Running with Spring Boot v3.4.1, Spring v6.2.1
+2024-12-30 11:38:01 - No active profile set, falling back to 1 default profile: "default"
+2024-12-30 11:38:02 - Started DemoApplicationTests in 1.173 seconds (process running for 1.804)
+2024-12-30 11:38:03 - HikariPool-1 - Starting...
+2024-12-30 11:38:03 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@654b899f
+2024-12-30 11:38:03 - HikariPool-1 - Start completed.
+2024-12-30 11:38:03 - HikariPool-1 - Shutdown initiated...
+2024-12-30 11:38:03 - HikariPool-1 - Shutdown completed.
+2024-12-30 11:38:11 - Starting DemoApplication using Java 17.0.13 with PID 547 (/var/www/html/steven/java/project/demo/target/classes started by root in /var/www/html/steven/java/project/demo)
+2024-12-30 11:38:11 - Running with Spring Boot v3.4.1, Spring v6.2.1
+2024-12-30 11:38:11 - No active profile set, falling back to 1 default profile: "default"
+2024-12-30 11:38:11 - Tomcat initialized with port 8080 (http)
+2024-12-30 11:38:11 - An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-12-30 11:38:11 - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.2].
+2024-12-30 11:38:11 - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-12-30 11:38:11 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-30 11:38:11 - Starting service [Tomcat]
+2024-12-30 11:38:11 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-30 11:38:11 - Initializing Spring embedded WebApplicationContext
+2024-12-30 11:38:11 - Root WebApplicationContext: initialization completed in 438 ms
+2024-12-30 11:38:12 - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-30 11:38:12 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-30 11:38:12 - Started DemoApplication in 0.856 seconds (process running for 1.051)
+2024-12-30 11:38:15 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-30 11:38:15 - Initializing Servlet 'dispatcherServlet'
+2024-12-30 11:38:15 - Completed initialization in 1 ms
+2024-12-30 11:38:15 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "steven"]
+2024-12-30 11:38:45 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "steven"]
+2024-12-30 11:40:25 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-30 11:40:25 - Graceful shutdown complete
+2024-12-30 11:40:33 - Could not detect default configuration classes for test class [com.example.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-12-30 11:40:33 - Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.DemoApplicationTests
+2024-12-30 11:40:34 - Starting DemoApplicationTests using Java 17.0.13 with PID 656 (started by root in /var/www/html/steven/java/project/demo)
+2024-12-30 11:40:34 - Running with Spring Boot v3.4.1, Spring v6.2.1
+2024-12-30 11:40:34 - No active profile set, falling back to 1 default profile: "default"
+2024-12-30 11:40:35 - Started DemoApplicationTests in 1.211 seconds (process running for 1.807)
+2024-12-30 11:40:35 - HikariPool-1 - Starting...
+2024-12-30 11:40:35 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@71468613
+2024-12-30 11:40:35 - HikariPool-1 - Start completed.
+2024-12-30 11:40:35 - HikariPool-1 - Shutdown initiated...
+2024-12-30 11:40:35 - HikariPool-1 - Shutdown completed.
+2024-12-30 11:41:37 - Could not detect default configuration classes for test class [com.example.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-12-30 11:41:37 - Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.DemoApplicationTests
+2024-12-30 11:41:37 - Starting DemoApplicationTests using Java 17.0.13 with PID 782 (started by root in /var/www/html/steven/java/project/demo)
+2024-12-30 11:41:37 - Running with Spring Boot v3.4.1, Spring v6.2.1
+2024-12-30 11:41:37 - No active profile set, falling back to 1 default profile: "default"
+2024-12-30 11:41:38 - Started DemoApplicationTests in 1.182 seconds (process running for 1.878)
+2024-12-30 11:41:39 - HikariPool-1 - Starting...
+2024-12-30 11:41:39 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@71468613
+2024-12-30 11:41:39 - HikariPool-1 - Start completed.
+2024-12-30 11:41:39 - HikariPool-1 - Shutdown initiated...
+2024-12-30 11:41:39 - HikariPool-1 - Shutdown completed.
+2024-12-30 11:41:43 - Starting DemoApplication using Java 17.0.13 with PID 900 (/var/www/html/steven/java/project/demo/target/classes started by root in /var/www/html/steven/java/project/demo)
+2024-12-30 11:41:43 - Running with Spring Boot v3.4.1, Spring v6.2.1
+2024-12-30 11:41:43 - No active profile set, falling back to 1 default profile: "default"
+2024-12-30 11:41:44 - Tomcat initialized with port 8080 (http)
+2024-12-30 11:41:44 - An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-12-30 11:41:44 - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.2].
+2024-12-30 11:41:44 - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-12-30 11:41:44 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-30 11:41:44 - Starting service [Tomcat]
+2024-12-30 11:41:44 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-30 11:41:44 - Initializing Spring embedded WebApplicationContext
+2024-12-30 11:41:44 - Root WebApplicationContext: initialization completed in 447 ms
+2024-12-30 11:41:44 - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-30 11:41:44 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-30 11:41:44 - Started DemoApplication in 0.865 seconds (process running for 1.056)
+2024-12-30 11:41:47 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-30 11:41:47 - Initializing Servlet 'dispatcherServlet'
+2024-12-30 11:41:47 - Completed initialization in 1 ms
+2024-12-30 11:41:47 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IllegalStateException: Ambiguous handler methods mapped for '/users/steven': {public com.example.demo.model.User com.example.demo.controller.UserController.getUserById(java.lang.Integer), public com.example.demo.model.User com.example.demo.controller.UserController.getUserByUsername(java.lang.String)}] with root cause
+java.lang.IllegalStateException: Ambiguous handler methods mapped for '/users/steven': {public com.example.demo.model.User com.example.demo.controller.UserController.getUserById(java.lang.Integer), public com.example.demo.model.User com.example.demo.controller.UserController.getUserByUsername(java.lang.String)}
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:431)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:382)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:127)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:68)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:509)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1283)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1064)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-12-30 11:42:10 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-30 11:42:10 - Graceful shutdown complete
+2024-12-30 11:42:16 - Starting DemoApplication using Java 17.0.13 with PID 1003 (/var/www/html/steven/java/project/demo/target/classes started by root in /var/www/html/steven/java/project/demo)
+2024-12-30 11:42:16 - Running with Spring Boot v3.4.1, Spring v6.2.1
+2024-12-30 11:42:16 - No active profile set, falling back to 1 default profile: "default"
+2024-12-30 11:42:16 - Tomcat initialized with port 8080 (http)
+2024-12-30 11:42:16 - An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-12-30 11:42:16 - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.2].
+2024-12-30 11:42:16 - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-12-30 11:42:16 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-30 11:42:16 - Starting service [Tomcat]
+2024-12-30 11:42:16 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-30 11:42:16 - Initializing Spring embedded WebApplicationContext
+2024-12-30 11:42:16 - Root WebApplicationContext: initialization completed in 455 ms
+2024-12-30 11:42:16 - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-30 11:42:16 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-30 11:42:17 - Started DemoApplication in 0.879 seconds (process running for 1.07)
+2024-12-30 11:42:19 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-30 11:42:19 - Initializing Servlet 'dispatcherServlet'
+2024-12-30 11:42:19 - Completed initialization in 1 ms
+2024-12-30 11:42:19 - HikariPool-1 - Starting...
+2024-12-30 11:42:19 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@36fafd20
+2024-12-30 11:42:19 - HikariPool-1 - Start completed.
+2024-12-30 11:42:22 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-30 11:42:22 - Graceful shutdown complete
+2024-12-30 11:42:22 - HikariPool-1 - Shutdown initiated...
+2024-12-30 11:42:22 - HikariPool-1 - Shutdown completed.
+2024-12-30 11:42:30 - Could not detect default configuration classes for test class [com.example.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-12-30 11:42:30 - Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.DemoApplicationTests
+2024-12-30 11:42:30 - Starting DemoApplicationTests using Java 17.0.13 with PID 1116 (started by root in /var/www/html/steven/java/project/demo)
+2024-12-30 11:42:30 - Running with Spring Boot v3.4.1, Spring v6.2.1
+2024-12-30 11:42:30 - No active profile set, falling back to 1 default profile: "default"
+2024-12-30 11:42:31 - Started DemoApplicationTests in 1.154 seconds (process running for 1.827)
+2024-12-30 11:42:32 - HikariPool-1 - Starting...
+2024-12-30 11:42:32 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@13f4048e
+2024-12-30 11:42:32 - HikariPool-1 - Start completed.
+2024-12-30 11:42:32 - HikariPool-1 - Shutdown initiated...
+2024-12-30 11:42:32 - HikariPool-1 - Shutdown completed.
+2024-12-30 11:42:58 - Starting DemoApplication v0.0.1-SNAPSHOT using Java 17.0.13 with PID 1196 (/var/www/html/steven/java/project/demo/target/demo-0.0.1-SNAPSHOT.jar started by root in /var/www/html/steven/java/project/demo)
+2024-12-30 11:42:58 - Running with Spring Boot v3.4.1, Spring v6.2.1
+2024-12-30 11:42:58 - No active profile set, falling back to 1 default profile: "default"
+2024-12-30 11:42:59 - Tomcat initialized with port 8080 (http)
+2024-12-30 11:42:59 - An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-12-30 11:42:59 - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.2].
+2024-12-30 11:42:59 - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-12-30 11:42:59 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-30 11:42:59 - Starting service [Tomcat]
+2024-12-30 11:42:59 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-30 11:42:59 - Initializing Spring embedded WebApplicationContext
+2024-12-30 11:42:59 - Root WebApplicationContext: initialization completed in 509 ms
+2024-12-30 11:42:59 - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-30 11:42:59 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-30 11:42:59 - Started DemoApplication in 1.11 seconds (process running for 1.416)
+2024-12-30 11:43:02 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-30 11:43:02 - Initializing Servlet 'dispatcherServlet'
+2024-12-30 11:43:02 - Completed initialization in 1 ms
+2024-12-30 11:43:02 - HikariPool-1 - Starting...
+2024-12-30 11:43:02 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7f7d2bc1
+2024-12-30 11:43:02 - HikariPool-1 - Start completed.
+2024-12-30 11:43:08 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.mybatis.spring.MyBatisSystemException] with root cause
+org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or null) to be returned by selectOne(), but found: 5
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:81)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:425)
+	at jdk.proxy2/jdk.proxy2.$Proxy65.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:160)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:87)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy66.getUserByUsername(Unknown Source)
+	at com.example.demo.service.UserService.getUserByUsername(UserService.java:28)
+	at com.example.demo.controller.UserController.getUserByUsername(UserController.java:65)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-12-30 11:43:40 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.mybatis.spring.MyBatisSystemException] with root cause
+org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or null) to be returned by selectOne(), but found: 5
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:81)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:425)
+	at jdk.proxy2/jdk.proxy2.$Proxy65.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:160)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:87)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy66.getUserByUsername(Unknown Source)
+	at com.example.demo.service.UserService.getUserByUsername(UserService.java:28)
+	at com.example.demo.controller.UserController.getUserByUsername(UserController.java:65)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-12-30 11:44:32 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-30 11:44:32 - Graceful shutdown complete
+2024-12-30 11:44:32 - HikariPool-1 - Shutdown initiated...
+2024-12-30 11:44:32 - HikariPool-1 - Shutdown completed.
+2024-12-30 11:44:37 - Starting DemoApplication v0.0.1-SNAPSHOT using Java 17.0.13 with PID 1253 (/var/www/html/steven/java/project/demo/target/demo-0.0.1-SNAPSHOT.jar started by root in /var/www/html/steven/java/project/demo)
+2024-12-30 11:44:37 - Running with Spring Boot v3.4.1, Spring v6.2.1
+2024-12-30 11:44:37 - No active profile set, falling back to 1 default profile: "default"
+2024-12-30 11:44:37 - Tomcat initialized with port 8080 (http)
+2024-12-30 11:44:37 - An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-12-30 11:44:37 - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.2].
+2024-12-30 11:44:37 - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-12-30 11:44:37 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-30 11:44:37 - Starting service [Tomcat]
+2024-12-30 11:44:37 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-30 11:44:37 - Initializing Spring embedded WebApplicationContext
+2024-12-30 11:44:37 - Root WebApplicationContext: initialization completed in 551 ms
+2024-12-30 11:44:37 - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-30 11:44:38 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-30 11:44:38 - Started DemoApplication in 1.183 seconds (process running for 1.51)
+2024-12-30 11:44:39 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-30 11:44:39 - Initializing Servlet 'dispatcherServlet'
+2024-12-30 11:44:39 - Completed initialization in 0 ms
+2024-12-30 11:44:39 - HikariPool-1 - Starting...
+2024-12-30 11:44:40 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3afac4cd
+2024-12-30 11:44:40 - HikariPool-1 - Start completed.
+2024-12-30 11:44:40 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.mybatis.spring.MyBatisSystemException] with root cause
+org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or null) to be returned by selectOne(), but found: 5
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:81)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:425)
+	at jdk.proxy2/jdk.proxy2.$Proxy65.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:160)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:87)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy66.getUserByUsername(Unknown Source)
+	at com.example.demo.service.UserService.getUserByUsername(UserService.java:28)
+	at com.example.demo.controller.UserController.getUserByUsername(UserController.java:65)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-12-30 11:57:13 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-30 11:57:13 - Graceful shutdown complete
+2024-12-30 11:57:13 - HikariPool-1 - Shutdown initiated...
+2024-12-30 11:57:13 - HikariPool-1 - Shutdown completed.
+2024-12-30 11:57:18 - Could not detect default configuration classes for test class [com.example.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-12-30 11:57:18 - Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.DemoApplicationTests
+2024-12-30 11:57:18 - Starting DemoApplicationTests using Java 17.0.13 with PID 1366 (started by root in /var/www/html/steven/java/project/demo)
+2024-12-30 11:57:18 - Running with Spring Boot v3.4.1, Spring v6.2.1
+2024-12-30 11:57:18 - No active profile set, falling back to 1 default profile: "default"
+2024-12-30 11:57:19 - Started DemoApplicationTests in 1.148 seconds (process running for 1.689)
+2024-12-30 11:57:19 - HikariPool-1 - Starting...
+2024-12-30 11:57:19 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@71468613
+2024-12-30 11:57:19 - HikariPool-1 - Start completed.
+2024-12-30 11:57:20 - HikariPool-1 - Shutdown initiated...
+2024-12-30 11:57:20 - HikariPool-1 - Shutdown completed.
+2024-12-30 17:19:14 - Could not detect default configuration classes for test class [com.example.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-12-30 17:19:14 - Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.DemoApplicationTests
+2024-12-30 17:19:15 - Starting DemoApplicationTests using Java 17.0.13 with PID 46402 (started by root in /var/www/html/steven/java/project/demo)
+2024-12-30 17:19:15 - Running with Spring Boot v3.4.1, Spring v6.2.1
+2024-12-30 17:19:15 - No active profile set, falling back to 1 default profile: "default"
+2024-12-30 17:19:16 - Started DemoApplicationTests in 1.263 seconds (process running for 1.935)
+2024-12-30 17:19:16 - HikariPool-1 - Starting...
+2024-12-30 17:19:16 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5477d90e
+2024-12-30 17:19:16 - HikariPool-1 - Start completed.
+2024-12-30 17:19:17 - HikariPool-1 - Shutdown initiated...
+2024-12-30 17:19:17 - HikariPool-1 - Shutdown completed.
+2024-12-30 17:19:23 - Starting DemoApplication using Java 17.0.13 with PID 46530 (/var/www/html/steven/java/project/demo/target/classes started by root in /var/www/html/steven/java/project/demo)
+2024-12-30 17:19:23 - Running with Spring Boot v3.4.1, Spring v6.2.1
+2024-12-30 17:19:23 - No active profile set, falling back to 1 default profile: "default"
+2024-12-30 17:19:23 - Tomcat initialized with port 8080 (http)
+2024-12-30 17:19:23 - An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-12-30 17:19:23 - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.2].
+2024-12-30 17:19:23 - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-12-30 17:19:23 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-30 17:19:23 - Starting service [Tomcat]
+2024-12-30 17:19:23 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-30 17:19:23 - Initializing Spring embedded WebApplicationContext
+2024-12-30 17:19:23 - Root WebApplicationContext: initialization completed in 461 ms
+2024-12-30 17:19:23 - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-30 17:19:23 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-30 17:19:23 - Started DemoApplication in 0.899 seconds (process running for 1.101)
+2024-12-30 17:19:30 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-30 17:19:30 - Initializing Servlet 'dispatcherServlet'
+2024-12-30 17:19:30 - Completed initialization in 1 ms
+2024-12-30 17:19:30 - HikariPool-1 - Starting...
+2024-12-30 17:19:30 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@9afc791
+2024-12-30 17:19:30 - HikariPool-1 - Start completed.
+2024-12-30 17:35:12 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-30 17:35:12 - Graceful shutdown complete
+2024-12-30 17:35:12 - HikariPool-1 - Shutdown initiated...
+2024-12-30 17:35:12 - HikariPool-1 - Shutdown completed.
+2024-12-30 17:58:07 - Could not detect default configuration classes for test class [com.example.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-12-30 17:58:07 - Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.DemoApplicationTests
+2024-12-30 17:58:08 - Starting DemoApplicationTests using Java 17.0.13 with PID 46643 (started by root in /var/www/html/steven/java/project/demo)
+2024-12-30 17:58:08 - Running with Spring Boot v3.4.1, Spring v6.2.1
+2024-12-30 17:58:08 - No active profile set, falling back to 1 default profile: "default"
+2024-12-30 17:58:09 - Started DemoApplicationTests in 1.286 seconds (process running for 2.042)
+2024-12-30 17:58:09 - HikariPool-1 - Starting...
+2024-12-30 17:58:09 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@287ad0da
+2024-12-30 17:58:09 - HikariPool-1 - Start completed.
+2024-12-30 17:58:10 - HikariPool-1 - Shutdown initiated...
+2024-12-30 17:58:10 - HikariPool-1 - Shutdown completed.
+2024-12-30 17:58:14 - Starting DemoApplication using Java 17.0.13 with PID 46771 (/var/www/html/steven/java/project/demo/target/classes started by root in /var/www/html/steven/java/project/demo)
+2024-12-30 17:58:14 - Running with Spring Boot v3.4.1, Spring v6.2.1
+2024-12-30 17:58:14 - No active profile set, falling back to 1 default profile: "default"
+2024-12-30 17:58:14 - Tomcat initialized with port 8080 (http)
+2024-12-30 17:58:14 - An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-12-30 17:58:14 - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.2].
+2024-12-30 17:58:14 - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-12-30 17:58:15 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-30 17:58:15 - Starting service [Tomcat]
+2024-12-30 17:58:15 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-30 17:58:15 - Initializing Spring embedded WebApplicationContext
+2024-12-30 17:58:15 - Root WebApplicationContext: initialization completed in 449 ms
+2024-12-30 17:58:15 - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-30 17:58:15 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-30 17:58:15 - Started DemoApplication in 0.885 seconds (process running for 1.084)
+2024-12-30 17:58:22 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-30 17:58:22 - Initializing Servlet 'dispatcherServlet'
+2024-12-30 17:58:22 - Completed initialization in 1 ms
+2024-12-30 17:58:22 - HikariPool-1 - Starting...
+2024-12-30 17:58:22 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2844bdc0
+2024-12-30 17:58:22 - HikariPool-1 - Start completed.
+2024-12-30 18:27:43 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-30 18:27:43 - Graceful shutdown complete
+2024-12-30 18:27:43 - HikariPool-1 - Shutdown initiated...
+2024-12-30 18:27:43 - HikariPool-1 - Shutdown completed.
+2024-12-30 18:27:49 - Could not detect default configuration classes for test class [com.example.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-12-30 18:27:49 - Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.DemoApplicationTests
+2024-12-30 18:27:49 - Starting DemoApplicationTests using Java 17.0.13 with PID 46884 (started by root in /var/www/html/steven/java/project/demo)
+2024-12-30 18:27:49 - Running with Spring Boot v3.4.1, Spring v6.2.1
+2024-12-30 18:27:49 - No active profile set, falling back to 1 default profile: "default"
+2024-12-30 18:27:50 - Started DemoApplicationTests in 1.289 seconds (process running for 2.049)
+2024-12-30 18:27:51 - HikariPool-1 - Starting...
+2024-12-30 18:27:51 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@287ad0da
+2024-12-30 18:27:51 - HikariPool-1 - Start completed.
+2024-12-30 18:27:51 - HikariPool-1 - Shutdown initiated...
+2024-12-30 18:27:51 - HikariPool-1 - Shutdown completed.
+2024-12-30 18:29:37 - Could not detect default configuration classes for test class [com.example.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-12-30 18:29:37 - Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.DemoApplicationTests
+2024-12-30 18:29:38 - Starting DemoApplicationTests using Java 17.0.13 with PID 47019 (started by root in /var/www/html/steven/java/project/demo)
+2024-12-30 18:29:38 - Running with Spring Boot v3.4.1, Spring v6.2.1
+2024-12-30 18:29:38 - No active profile set, falling back to 1 default profile: "default"
+2024-12-30 18:29:39 - Started DemoApplicationTests in 1.204 seconds (process running for 1.962)
+2024-12-30 18:29:39 - HikariPool-1 - Starting...
+2024-12-30 18:29:39 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@287ad0da
+2024-12-30 18:29:39 - HikariPool-1 - Start completed.
+2024-12-30 18:29:39 - HikariPool-1 - Shutdown initiated...
+2024-12-30 18:29:39 - HikariPool-1 - Shutdown completed.
+2024-12-30 18:30:08 - Starting DemoApplication using Java 17.0.13 with PID 47144 (/var/www/html/steven/java/project/demo/target/classes started by root in /var/www/html/steven/java/project/demo)
+2024-12-30 18:30:08 - Running with Spring Boot v3.4.1, Spring v6.2.1
+2024-12-30 18:30:08 - No active profile set, falling back to 1 default profile: "default"
+2024-12-30 18:30:08 - Tomcat initialized with port 8080 (http)
+2024-12-30 18:30:08 - An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-12-30 18:30:08 - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.2].
+2024-12-30 18:30:08 - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-12-30 18:30:08 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-30 18:30:08 - Starting service [Tomcat]
+2024-12-30 18:30:08 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-30 18:30:08 - Initializing Spring embedded WebApplicationContext
+2024-12-30 18:30:08 - Root WebApplicationContext: initialization completed in 475 ms
+2024-12-30 18:30:08 - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-30 18:30:08 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-30 18:30:08 - Started DemoApplication in 0.922 seconds (process running for 1.124)
+2024-12-30 18:30:16 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-30 18:30:16 - Initializing Servlet 'dispatcherServlet'
+2024-12-30 18:30:16 - Completed initialization in 1 ms
+2024-12-30 18:30:16 - Get all users
+2024-12-30 18:30:16 - HikariPool-1 - Starting...
+2024-12-30 18:30:17 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5c83fa61
+2024-12-30 18:30:17 - HikariPool-1 - Start completed.

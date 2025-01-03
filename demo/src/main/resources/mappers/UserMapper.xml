@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.mapper.UserMapper">
+    <!-- <sql>定义一些公共的SQL片段 </sql> -->
+    <sql id="userColumns">select id, username, email, password, post_code from users</sql>
+
+    <!-- 查询所有用户 -->
+    <select id="getAllUsers" resultType="com.example.demo.model.User">
+        <!-- SELECT * FROM users -->
+        <include refid="userColumns" />
+    </select>
+
+    <!-- 根据ID查询用户 -->
+    <select id="getUserById" resultType="com.example.demo.model.User">
+        <!-- SELECT * FROM users WHERE id = #{id} -->
+        <include refid="userColumns" />
+        WHERE id = #{id}
+    </select>
+
+    <!-- 根据用户名查询用户 -->
+    <select id="getUserByUsername" resultType="com.example.demo.model.User">
+        SELECT * FROM users WHERE username = #{username}
+    </select>
+
+    <!-- 插入新用户 -->
+    <insert id="insertUser" parameterType="com.example.demo.model.User" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO users (username, email, password, post_code)
+        VALUES (#{username}, #{email}, #{password}, #{postCode})
+    </insert>
+
+    <!-- 更新用户信息 -->
+    <update id="updateUser" parameterType="com.example.demo.model.User">
+        UPDATE users
+        SET username = #{username}, email = #{email}, password = #{password}, post_code = #{postCode}
+        WHERE id = #{id}
+    </update>
+
+    <!-- 删除用户 -->
+    <delete id="deleteUser" parameterType="int">
+        DELETE FROM users WHERE id = #{id}
+    </delete>
+
+    <!-- <select id="getUserByUsernameAndPassword" resultType="com.example.demo.model.User">
+        SELECT * FROM users 
+        <where> 
+            <if test="username != null and username != ''">username = #{username}</if>
+            <if test="email != null and email != ''">and email = #{email}</if>
+            <if test="phone != null and phone != ''">and phone = #{phone}</if>
+        </where>
+    </select> -->
+
+    <!-- <update id="updateUser2" parameterType="com.example.demo.model.User">
+        UPDATE users
+        <set>
+            <if test="username != null and username != ''">username = #{username},</if>
+            <if test="email != null and email != ''">email = #{email},</if>
+            <if test="password != null and password != ''">password = #{password},</if>
+            <if test="postCode != null and postCode != ''">post_code = #{postCode},</if>
+        </set>
+        WHERE id = #{id}
+    </update> -->
+
+        <!-- <select id="findUsersByIds" parameterType="java.util.Map" resultType="User">
+    SELECT * FROM users
+    <where>
+        <if test="ids != null and not ids.isEmpty()">
+        AND id IN
+        <foreach collection="ids" item="id" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+        </if>
+    </where>
+    </select> -->
+</mapper>

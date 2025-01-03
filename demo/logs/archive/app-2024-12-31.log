@@ -1,0 +1,60 @@
+2024-12-31 13:59:33 - Could not detect default configuration classes for test class [com.example.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-12-31 13:59:33 - Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.DemoApplicationTests
+2024-12-31 13:59:33 - Starting DemoApplicationTests using Java 17.0.13 with PID 111 (started by root in /var/www/html/steven/java/project/demo)
+2024-12-31 13:59:33 - Running with Spring Boot v3.4.1, Spring v6.2.1
+2024-12-31 13:59:33 - No active profile set, falling back to 1 default profile: "default"
+2024-12-31 13:59:34 - Started DemoApplicationTests in 1.402 seconds (process running for 2.228)
+2024-12-31 13:59:35 - HikariPool-1 - Starting...
+2024-12-31 13:59:36 - HikariPool-1 - Starting...
+2024-12-31 14:01:33 - Could not detect default configuration classes for test class [com.example.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-12-31 14:01:33 - Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.DemoApplicationTests
+2024-12-31 14:01:33 - Starting DemoApplicationTests using Java 17.0.13 with PID 236 (started by root in /var/www/html/steven/java/project/demo)
+2024-12-31 14:01:33 - Running with Spring Boot v3.4.1, Spring v6.2.1
+2024-12-31 14:01:33 - No active profile set, falling back to 1 default profile: "default"
+2024-12-31 14:01:34 - Started DemoApplicationTests in 1.168 seconds (process running for 1.875)
+2024-12-31 14:01:35 - HikariPool-1 - Starting...
+2024-12-31 14:01:36 - HikariPool-1 - Starting...
+2024-12-31 14:02:19 - Could not detect default configuration classes for test class [com.example.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-12-31 14:02:19 - Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.DemoApplicationTests
+2024-12-31 14:02:19 - Starting DemoApplicationTests using Java 17.0.13 with PID 611 (started by root in /var/www/html/steven/java/project/demo)
+2024-12-31 14:02:19 - Running with Spring Boot v3.4.1, Spring v6.2.1
+2024-12-31 14:02:19 - No active profile set, falling back to 1 default profile: "default"
+2024-12-31 14:02:20 - Started DemoApplicationTests in 1.332 seconds (process running for 2.09)
+2024-12-31 14:02:21 - HikariPool-1 - Starting...
+2024-12-31 14:02:22 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@60e47aab
+2024-12-31 14:02:22 - HikariPool-1 - Start completed.
+2024-12-31 14:02:22 - HikariPool-1 - Shutdown initiated...
+2024-12-31 14:02:22 - HikariPool-1 - Shutdown completed.
+2024-12-31 18:58:58 - Could not detect default configuration classes for test class [com.example.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-12-31 18:58:58 - Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.DemoApplicationTests
+2024-12-31 18:58:58 - Starting DemoApplicationTests using Java 17.0.13 with PID 561 (started by root in /var/www/html/steven/java/project/demo)
+2024-12-31 18:58:58 - Running with Spring Boot v3.4.1, Spring v6.2.1
+2024-12-31 18:58:58 - No active profile set, falling back to 1 default profile: "default"
+2024-12-31 18:58:59 - Started DemoApplicationTests in 1.258 seconds (process running for 1.957)
+2024-12-31 18:59:00 - HikariPool-1 - Starting...
+2024-12-31 18:59:03 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6cc90398
+2024-12-31 18:59:03 - HikariPool-1 - Start completed.
+2024-12-31 18:59:03 - HikariPool-1 - Shutdown initiated...
+2024-12-31 18:59:03 - HikariPool-1 - Shutdown completed.
+2024-12-31 19:17:52 - Could not detect default configuration classes for test class [com.example.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-12-31 19:17:52 - Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.DemoApplicationTests
+2024-12-31 19:17:52 - Starting DemoApplicationTests using Java 17.0.13 with PID 710 (started by root in /var/www/html/steven/java/project/demo)
+2024-12-31 19:17:52 - Running with Spring Boot v3.4.1, Spring v6.2.1
+2024-12-31 19:17:52 - No active profile set, falling back to 1 default profile: "default"
+2024-12-31 19:17:53 - Started DemoApplicationTests in 1.304 seconds (process running for 1.943)
+2024-12-31 19:17:54 - HikariPool-1 - Starting...
+2024-12-31 19:17:54 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@38ebc866
+2024-12-31 19:17:54 - HikariPool-1 - Start completed.
+2024-12-31 19:17:54 - HikariPool-1 - Shutdown initiated...
+2024-12-31 19:17:54 - HikariPool-1 - Shutdown completed.
+2024-12-31 19:43:49 - Could not detect default configuration classes for test class [com.example.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-12-31 19:43:49 - Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.DemoApplicationTests
+2024-12-31 19:43:49 - Starting DemoApplicationTests using Java 17.0.13 with PID 1254 (started by root in /var/www/html/steven/java/project/demo)
+2024-12-31 19:43:49 - Running with Spring Boot v3.4.1, Spring v6.2.1
+2024-12-31 19:43:49 - No active profile set, falling back to 1 default profile: "default"
+2024-12-31 19:43:50 - Started DemoApplicationTests in 1.283 seconds (process running for 1.974)
+2024-12-31 19:43:51 - HikariPool-1 - Starting...
+2024-12-31 19:43:51 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2d230cff
+2024-12-31 19:43:51 - HikariPool-1 - Start completed.
+2024-12-31 19:43:51 - HikariPool-1 - Shutdown initiated...
+2024-12-31 19:43:51 - HikariPool-1 - Shutdown completed.
